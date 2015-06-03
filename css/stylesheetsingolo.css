@@ -64,7 +64,10 @@ header {
 	color: #eb5055;
 	text-decoration: none;
 }
-
+.containers {
+	background-color: #ea676b;
+	width: 100%;
+}
 .containerslider {
 	display: block;
 	height: 600px;
@@ -181,6 +184,10 @@ header {
 	line-height: 18px;
 	word-spacing: 2px;
 	padding-right: 24px;
+}
+.portcontainer {
+	background-color: #303441;
+	width: 100%;
 }
 .portfolio {
 	width: 1020px;
@@ -331,6 +338,10 @@ figure ul {
 	-moz-border-radius: 100px;
 	-webkit-border-radius: 100px;
  }
+ .quotecontainer {
+	background-color: #ea676b;
+	width: 100%;
+}
  .quote {
 	width: 1020px;
 	background-color: #ea676b;
