@@ -11,10 +11,8 @@
 </head>
 	<meta charset="utf-8">
 <body> 
-	<div id="page">
-	<div id="wrapper">
 <header>
-	<div class="header">
+<div class="header">
 	<div id="logo"> <img src="./images/singolologo.png" />
 	</div>
 	<nav class="singolo">
@@ -30,11 +28,11 @@
 </header>
 
 <section class="containerslider">
+	<div class="left"><img src="./images/leftarrow.png" /></div>
+	<div class="right"><img src="./images/rightarrow.png" /></div>
 	<div class="slider">
-		<img src="./images/leftarrow.png" /> 
-		<img src="./images/sliderphone1.png" /> 
-		<img src="./images/sliderphone2.png" /> 
-		<img src="./images/rightarrow.png" /> 
+		<div class="phone1"><img src="./images/sliderphone1.png" /></div> 
+		<div class="phone2"><img src="./images/sliderphone2.png" /></div>
 	</div>
 </section>
 
@@ -43,39 +41,41 @@
 		<h2> Our Services </h2>
 		<p> Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh. </p>
 	</div>
+
 <div class="serviceitems">
-	<div class="containerone">
+
+	<div class="pen">
 		<img src="./images/pen.png">
 		<h3>Custom Design</h3>
 		<p>Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p>
 	</div>	 
 
-	<div class="containertwo">
+	<div class="light">
 		<img src="./images/light.png">
-		<h3>Inovative Ideas</h3>
+		<h3>Innovative Ideas</h3>
 		<p>Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec rutrum tellus dolor id lorem.</p>
 	</div>	 
 
 
-	<div class="containerthree">
-		<h3> Love Is The Answer</h3>
+	<div class="heart">
 		<img src="./images/heart.png">
+		<h3> Love Is The Answer</h3>
 		<p> Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum. </p>
 	</div>	 
 
-	<div class="containerfour">
+	<div class="tablet">
 		<img src="./images/tablet.png">
 		<h3> Responsive Layout </h3>
 		<p>Sed porttitor placerat rhoncus. In at nunc tellus. Maecenas blandit nunc ligula. Praesent elit leo. </p>
 	</div>	 
 
-	<div class="containerfive">
+	<div class="bubble">
 		<img src="./images/bubble.png">
 		<h3> 24/7 Support</h3>
-		<p> Vivamus vel quam lacinia, tincidunt dui non, vehicula nisi. Nulla a sem erat. Pellentesque egestas venenatis lorem .</p>
+		<p> Vivamus vel quam lacinia, tincidunt dui non, vehicula nisi. Nulla a sem erat. Pellentesque egestas venenatis lorem.</p>
 	</div>	 
 
-	<div class="containersix">
+	<div class="star">
 		<img src="./images/star.png">
 		<h3>Feel Like A Star </h3>
 		<p> Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. </p>
@@ -91,10 +91,10 @@
 
 	<div class="portbuttons">
 		<ul>
-			<li> <button class="#all"> All </button> </li>
-			<li> <button class="#wd"> Web Design </button></li>
-			<li> <button class="#gd"> Graphic Design </button></li>
-			<li> <button class="#art">Artwork</button></li>
+			<li> <button class="all"> All </button> </li>
+			<li> <button class="wd"> Web Design </button></li>
+			<li> <button class="gd"> Graphic Design </button></li>
+			<li> <button class="art">Artwork</button></li>
 		</ul>
 	</div>
 
@@ -118,7 +118,7 @@
 
 <section class="about">
 	<h2> About US </h2> 
-	<p> Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh. </p>
+	<p class="firstp"> Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh. </p>
 
 <div class="profiles">
 
@@ -126,13 +126,13 @@
 	<figure> <img src="./images/photo1.png">
 	<figcaption> <h1>Adam Jensen</h1>
 		<p>Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec rutrum tellus dolor id lorem.</p>
-	</figcaption>
 		<ul>
 			<li> <a href="https://www.http://en.wikipedia.org/wiki/RSS.com/" target="blank"> <img src="./images/fb.png" /> </a></li>
 			<li> <a href="https://www.gmail.com/" target="blank"> <img src="./images/google.png" /></a></li>
 			<li> <a href="https://www.twitter.com/" target="blank"><img src="images/tweet.png" /></a></li>
 			<li> <a href="https://www.linked.com/" target="blank"><img src="images/linkedin.png" /></a></li>
 	</ul>
+</figcaption>
 	</figure>
 </div>
 
@@ -175,44 +175,40 @@
 		<h2> Get a Quote </h2>
 		<p> Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
 	</div>
-<form action="http://www.circuslabs.net/~katherine.lavey/project2/index.html"> 
-	<fieldset>
-		<p>
-			<label class="title" for="name">Name (Required)</label>
-			<input type="text" name="name" id="name"><br />
-			<label class="title" for="email"> Email (Required)</label>
-			<input type="text" name="email" id="email">
-			<label class="title" for="subject">Subject</label>
-			<input type="text" name="subject" id="subject"><br />
-			<label class="title" for="details">Describe your project in detail...</label>
-			<input type="text" name="details" id="details"><br />
-		</p>
+
+<div class="placeholder">
+	<textarea placeholder="#Name"> Name (Required)</textarea>
+	<textarea placeholder="#Email"> Email (Required)</textarea>
+	<textarea placeholder="#Subject"> Subject</textarea>
+	<textarea placeholder="#Describe"> Describe you project in detail...</textarea>
+</div>
 
 
 
-<div class="contact">
+<div id="contact">
 	<h3> Contact Information</h3>
 		<p>Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis.</p>
 	<ul> 
-		<li> <img src="./images/iconmap.png"> <address>Elm St. 14/05 Lost City</address> </li>
-		<li> <img src="./images/phone.png"> <a href="tel:035283318635"> 03528-331-86-35</a> </li>
-		<li> <img src="./images/mail.png"> info@singolo.com</li>
+		<li> <img src="./images/iconmap.png"> Elm St. 14/05 Lost City</li>
+		<li> <img src="./images/phone.png"> <a href="tel:035283318635"> 03528-331-8635</a> </li>
+		<li> <img src="./images/mail.png"> <a href="mailto:info@singolo.com">info@singolo.com</li>
 </ul>
 
 
 </section>
 
-<footer>
+<footer>	
+	<div class="footer">
 	<div class="social">
 		<ul>
-			<li> <a href="https://www.http://en.wikipedia.org/wiki/RSS.com/" target="blank"> <img src="./images/fb.png" /> </a></li>
+			<li> <a href="https://www.facebook.com/" target="blank"> <img src="./images/fb.png" /> </a></li>
 			<li> <a href="https://www.gmail.com/" target="blank"> <img src="./images/google.png" /></a></li>
 			<li> <a href="https://www.twitter.com/" target="blank"><img src="images/tweet.png" /></a></li>
 			<li> <a href="https://www.linked.com/" target="blank"><img src="images/linkedin.png" /></a></li>
 	</ul>
-	</div>
-	<div class="copy"> &copy; Copyright 2013 · by PSDchat.com
-	</div>
+		</div>
+	<div class="copy"> &copy; Copyright 2013 · by PSDchat.com </div>
+</div>
 </footer>
 	
 </body>
