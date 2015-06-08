@@ -113,18 +113,18 @@ header {
 }
 
 .services {
-	width: 1020px;
+	width: 100%;
 	background-color: #f2f2f2;
+	border-bottom: 2px solid #fff;
+	
+}
+.sertitle {
+	width: 1020px;
+	display: inline-block;
 	padding-top: 10px;
 	padding-left: 20px;
 	margin: 0 auto;
 	text-align: left;
-	border-bottom: 2px solid #fff;
-}
-.sertitle {
-	width: 100%;
-	display: inline-block;
-	padding: 10px;
 }
 .sertitle h2 {
 	display: inline-block;
@@ -264,7 +264,10 @@ button:hover {
 	vertical-align: middle;
 	position: relative;
 }
-
+.aboutcontainer {
+	background-color: #f2f2f2;
+	width: 100%;
+}
 .about {
 	display: inline-block;
 	width: 1020px;
